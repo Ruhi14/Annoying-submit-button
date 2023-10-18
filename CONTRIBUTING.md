@@ -9,13 +9,13 @@
 - Fork this repo (button on top).
 - Clone on your local machine.
 
-        git clone https://github.com/fineanmol/Annoying-submit-button.git
+        git clone git@github.com:Ruhi14/Annoying-submit-button.git
 - Navigate to the project directory.
 
         cd Annoying-submit-button
 - Add a new remote branch 
 
-        git remote add develop https://github.com/{YOUR_USERNAME}/Annoying-submit-button
+        git remote add develop https://github.com/Ruhi14/Annoying-submit-button
 
 - Create a new *branch*
 
@@ -27,7 +27,7 @@
 
 - Commit your changes 
 
-        git commit -m "{Message}"
+        git commit -m "adding submit button"
 - Then push
 
         git push devolp new-branch

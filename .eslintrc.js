@@ -1,3 +1,21 @@
+import React, { useState } from 'react';
+
+const AnnoyingSubmitButton = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(true);
+    // Add your annoying behavior here, such as displaying a message, changing styles, etc.
+  };
+
+  return (
+    <button onClick={handleClick} style={{ background: clicked ? 'red' : 'green', color: 'white', padding: '10px 20px', fontSize: '16px', borderRadius: '5px', border: 'none', cursor: 'pointer' }}>
+      {clicked ? 'Stop clicking me!' : 'Click me!'}
+    </button>
+  );
+};
+
+export default AnnoyingSubmitButton;
 module.exports = {
   env: {
     browser: true,
